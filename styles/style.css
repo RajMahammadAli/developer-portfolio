@@ -146,6 +146,76 @@ p {
   text-align: left;
 }
 
+.resume-container {
+  width: 80%;
+  margin: 130px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.qualification-experience {
+  margin: 40px 0;
+  display: flex;
+}
+
+.content {
+  padding: 30px 0 0 0;
+  text-align: left;
+}
+
+.Education-content {
+  margin-right: 35px;
+}
+
+.Experience-content {
+  margin-left: 35px;
+}
+
+footer {
+  margin: 130px 0 30px 0;
+  background-color: #fff8f3;
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.connect {
+  margin-bottom: 30px;
+  width: 40%;
+}
+.connect > p {
+  padding: 20px 0;
+}
+
+.icon img {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.message {
+  width: 40%;
+  text-align: center;
+}
+.input input {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.input textarea {
+  margin: 10px 0;
+  width: 100%;
+
+  font-size: 18px;
+}
 @media screen and (max-width: 576px) {
   .header-container {
     background-image: none;
@@ -243,5 +313,48 @@ p {
 
   .skill h4 {
     margin: 20px 0;
+  }
+
+  .resume-container {
+    width: 100%;
+    margin: 30px 0;
+    padding: 30px;
+  }
+
+  .resume-container h1 {
+    font-size: 35px;
+  }
+
+  .qualification-experience {
+    margin: 40px;
+    display: block;
+  }
+
+  .Education-content {
+    margin: 0;
+  }
+
+  .Experience-content {
+    margin: 0;
+  }
+  .content {
+    text-align: left;
+  }
+  .content p {
+    padding-bottom: 30px;
+  }
+
+  .footer-container {
+    width: 100%;
+    padding: 30px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .connect {
+    width: 100%;
+  }
+  .message {
+    width: 100%;
   }
 }
